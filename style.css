@@ -1,0 +1,48 @@
+.container
+{
+    padding:0 200px;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+
+}
+.home
+{
+    padding-top: 100px;
+
+}
+.container-home
+{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .part1
+{
+    margin: 100px;
+}
+#product
+{
+    padding-top: 100px;
+    text-align: center;
+}
+@media (min-width: 1000px)
+{
+    .part1 img{
+        width: 200px;
+    }
+}
